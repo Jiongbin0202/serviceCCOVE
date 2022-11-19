@@ -25,5 +25,5 @@ setup(
     packages = find_packages(),
     include_package_data = True,
     platforms = "any",
-    install_requires = []
+    install_requires = ['arcpy', 'datetime', 'os', 'json', 'asyncio', 'websockets', 'websocket', 'sys']
 )
